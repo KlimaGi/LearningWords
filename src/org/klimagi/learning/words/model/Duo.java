@@ -1,6 +1,6 @@
-package org.klimagi.learning.words;
+package org.klimagi.learning.words.model;
 
-public class ZodziuDuo { // dvieju atributu klase
+public class Duo { // dvieju atributu klase
 	
 	private String lt;
 	private String en;
@@ -13,14 +13,12 @@ public class ZodziuDuo { // dvieju atributu klase
 	// 4*  tik 15 lt zod, reikia IVESTI en zodzius
 	
 	
-	// ** tikrinti jei teisingai suvesta 2 kartus, tuos zodzius kartoti 20% viso kiekio
+	// ** tikrinti jei teisingai suvesta 2 kartus, tuos zodzius kartoti 20% viso kiekio  
 	// **  neteisingai atsakytus zodzius kartoti 80% viso zodziu kiekio
-	
+	// **--buble metodas suskirstymui ir rodymui
 	//  *** papildomu zodziu ivedimo funkcija
 	//
-	
-	public ZodziuDuo(String lt, String en) {
-		super();
+	public Duo(String en, String lt) {  // ar cia eiliskumas svarbu?
 		this.lt = lt;
 		this.en = en;
 	}
@@ -37,6 +35,9 @@ public class ZodziuDuo { // dvieju atributu klase
 		this.en = en;
 	}
 	
+	
+	
+// kaip padaryti atvirkscia varianta
 	
 	
 

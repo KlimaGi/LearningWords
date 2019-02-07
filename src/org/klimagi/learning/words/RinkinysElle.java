@@ -1,23 +1,25 @@
 package org.klimagi.learning.words;
 import java.util.List;
 
+import org.klimagi.learning.words.model.Duo;
+
 public class RinkinysElle {
 
-	// gauti sarasa su pirmiau en - lt
+	// gauti sarasa su pirmiau en - lt   +
 	// 2* gauti ta pati sarasa lt - en
 
 	// random sarasa tik en ----- suvedimui lt  Is TESTO dalies
 	// random sarasa tik lt ----- suvedimui en
 
-	public void elle(List<ZodziuDuo> z) {
+	public void elle(List<Duo> sarasas) {
 		
-		output(z , true, true);
-		output(z , false, true);
+		output(sarasas , true, true);
+		output(sarasas , false, true);
 	}
 	
-	private void output(List<ZodziuDuo> sarasas , boolean en, boolean lt) {
+	private void output(List<Duo> sarasas , boolean en, boolean lt) {
 		
-		for (ZodziuDuo duo : sarasas) {
+		for (Duo duo : sarasas) {
 			
 			if (en) {
 				System.out.print(duo.getEn() + " - ");
