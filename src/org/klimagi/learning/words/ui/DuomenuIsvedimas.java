@@ -2,7 +2,7 @@ package org.klimagi.learning.words.ui;
 
 public abstract class DuomenuIsvedimas {
 
-	public void isvesti(String... strings) {
+	/*public void isvesti(String... strings) {
 
 		for (String txt : strings) {
 			if (txt != null && !txt.isEmpty()) {
@@ -14,6 +14,6 @@ public abstract class DuomenuIsvedimas {
 	public void out(String txt) {
 
 	}
-
+*/
 
 }

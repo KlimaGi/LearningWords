@@ -25,25 +25,23 @@ public class RinkinysElle {
 
 			if (en) {
 
-				out(duo.getEn() + " - ");
-				// System.out.print(duo.getEn() + " - ");
+				//out(duo.getEn() + " - ");
+				 System.out.print(duo.getEn() + " - ");
 			}
 			if (lt) {
 
-				out(duo.getLt());
-				// System.out.print(duo.getLt());
+				//out(duo.getLt());
+				 System.out.print(duo.getLt());
 			}
-			out("");
-			// System.out.println();
+			//out("");
+			 System.out.println();
 
-			// System.out.println(duo.getEn() + " - " + duo.getLt()); // en - lt kita karta
+			 System.out.println(duo.getEn() + " - " + duo.getLt()); // en - lt kita karta
 			// lt - en
 		}
 	}
 
-	private void out(String txt) {
-		
-		
-	}
+//	private void out(String txt) {
+//	}
 
 }

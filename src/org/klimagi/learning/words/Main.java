@@ -13,7 +13,7 @@ public class Main {
 		new SekaPratimu(service);
 
 		
-		DuomenuIsvedimas isvedimas = new DuomenuIsvedimas(new out());
+	//	DuomenuIsvedimas isvedimas = new DuomenuIsvedimas(new out());
 		
 	}
 	
