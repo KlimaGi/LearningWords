@@ -13,3 +13,29 @@ public abstract class DuomenuIsvedimas {
 
 	public abstract void out(String txt);
 }
+
+/*public class DuomenuIsvedimas {
+    public static DuomenuIsvedimas duomenuIsvedimas;
+    public DuomenuIsvedimas(){
+            this.duomenuIsvedimas = this;
+}
+}*/
+/*
+@Override
+public void out(String txt) {
+}*/
+
+/*public class Alpha {
+
+    private Beta cbeta;
+
+    public Alpha(Beta beta) {
+        this.cbeta = beta;
+    }
+
+    public void DoSomethingAlpha() {
+        this.cbeta.DoSomethingBeta();
+    }
+}*/
+
+// Alpha cAlpha = new Alpha(new Beta());   

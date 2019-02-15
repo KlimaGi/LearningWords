@@ -14,14 +14,14 @@ public class ZodzioIrasymas extends DuomenuIsvedimas {
 		out (duo.getEn());
 		//System.out.println(duo.getEn());
 
-		Klaviatura idedam = new Klaviatura;
-		idedam.klaviaturaIn(keyboardInput);
+		Klaviatura idedam = new Klaviatura();
+		idedam.klaviaturaIn();
 		
 		//Scanner keyboardInput = new Scanner(System.in);
 
 		IvedimoResult inputResult = null;
 		do {
-			String input = keyboardInput.nextLine();
+			String input = idedam.nextLine();
 			inputResult = flContr.tikrinkIvedima(input, WordLang.LT);
 
 			switch (inputResult) {
