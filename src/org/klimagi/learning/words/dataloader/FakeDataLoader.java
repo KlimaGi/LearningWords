@@ -15,6 +15,7 @@ public class FakeDataLoader implements DataLoader {
 		duos.add(new Duo("ambiguous", "dviprasmiskas"));
 		duos.add(new Duo("assert", "tvirtinti"));
 		duos.add(new Duo("assumption", "prielaida"));
+		duos.add(new Duo("assure", "uztikrinti"));
 		duos.add(new Duo("attempt", "bandymas"));
 		duos.add(new Duo("attend", "dalyvauti"));
 		duos.add(new Duo("alertness", "budrumas"));
@@ -44,6 +45,8 @@ public class FakeDataLoader implements DataLoader {
 		duos.add(new Duo("incentive", "paskata"));
 		duos.add(new Duo("inherit", "paveldeti"));
 		duos.add(new Duo("interaction", "saveika"));
+		duos.add(new Duo("iteration", "pakartojimas"));
+		duos.add(new Duo("invoke", "remtis"));
 		duos.add(new Duo("measurement", "matavimas"));
 		duos.add(new Duo("merely", "tik"));
 		duos.add(new Duo("mortgage", "hipoteka"));
@@ -52,6 +55,8 @@ public class FakeDataLoader implements DataLoader {
 		duos.add(new Duo("notion", "savoka"));
 		duos.add(new Duo("observation", "stebejimas"));
 		duos.add(new Duo("occasion", "proga"));
+		duos.add(new Duo("omit", "praleisti"));
+		duos.add(new Duo("option", "parinktis"));
 		duos.add(new Duo("penalty", "bauda"));
 		duos.add(new Duo("perception", "suvokimas"));
 		duos.add(new Duo("predict", "numatyti"));
@@ -70,13 +75,15 @@ public class FakeDataLoader implements DataLoader {
 		duos.add(new Duo("repository", "saugykla"));
 		duos.add(new Duo("reveal", "atskleisti"));
 		duos.add(new Duo("revenue", "pajamos"));
+		duos.add(new Duo("sequence", "seka"));
 		duos.add(new Duo("scholar", "mokslininkas"));
 		duos.add(new Duo("scope", "taikymo sritis"));
 		duos.add(new Duo("severe", "sunkus"));
 		duos.add(new Duo("snippet", "fragmentas"));
 		duos.add(new Duo("subsequent", "veliau"));
-		duos.add(new Duo("sufficiently", "pakankamai"));
+		duos.add(new Duo("sufficient", "pakanka"));
 		duos.add(new Duo("sustain", "palaikyti"));
+		duos.add(new Duo("terminate", "nutraukti"));
 		duos.add(new Duo("testify", "liudyti"));
 		duos.add(new Duo("tissue", "audinys"));
 		duos.add(new Duo("traceability", "atsekamumas"));

@@ -1,6 +1,6 @@
 package org.klimagi.learning.words.model;
 
-public enum WornLang {
+public enum WordLang {
 
 	
 	EN, LT

@@ -8,8 +8,8 @@ import org.klimagi.learning.words.model.Duo;
 
 public class ZodziaiUtil {
 
-	// diraba tik su random gautu zodziu sarasu is didziojo ListoDuo ir istraukia
-	// random zodziu derini
+	// dirba tik su random gautu zodziu sarasu is didziojo ListoDuo ir istraukia
+	
 	public static Duo gautiRandomDuo(List<Duo> list) {
 		Random rnd = new Random();
 		return list.get(rnd.nextInt(list.size()));
