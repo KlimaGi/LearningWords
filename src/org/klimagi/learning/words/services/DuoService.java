@@ -1,4 +1,5 @@
 package org.klimagi.learning.words.services;
+
 import java.util.List;
 
 import org.klimagi.learning.words.model.Duo;
@@ -30,16 +31,16 @@ public class DuoService {
 
 	public boolean klausimasVertimas(String input, WordLang inputLang) { // ka butent naudosiu
 
-		String inputEn;
-		String inputLt;
+		 String inputEn;
+		 String inputLt;
 
 		if (inputLang.equals(WordLang.EN)) {
-			inputEn = input;
-			inputLt = duo.getLt();
+			 inputEn = input;
+			 inputLt = duo.getLt();
 			return duo.getEn().equalsIgnoreCase(input);
 		} else {
-			inputEn = duo.getEn();
-			inputLt = input;
+			 inputEn = duo.getEn();
+			 inputLt = input;
 			return duo.getLt().equalsIgnoreCase(input);
 		}
 	}

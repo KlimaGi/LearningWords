@@ -4,7 +4,7 @@ import java.util.List;
 
 import org.klimagi.learning.words.model.Duo;
 
-public class RinkinysElle extends DuomenuIsvedimas {
+public class RinkinysElle {
 
 	public void elle(List<Duo> sarasas) {
 
@@ -29,6 +29,7 @@ public class RinkinysElle extends DuomenuIsvedimas {
 				// System.out.print(duo.getEn() + " - ");
 			}
 			if (lt) {
+
 				out(duo.getLt());
 				// System.out.print(duo.getLt());
 			}
@@ -40,7 +41,9 @@ public class RinkinysElle extends DuomenuIsvedimas {
 		}
 	}
 
-	@Override
-	public void out(String txt) {
+	private void out(String txt) {
+		
+		
 	}
+
 }

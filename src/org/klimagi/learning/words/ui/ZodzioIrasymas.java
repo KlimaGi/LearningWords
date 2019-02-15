@@ -52,7 +52,7 @@ public class ZodzioIrasymas extends DuomenuIsvedimas {
 		// System.out.println("done");
 		out(" ");
 		// System.out.println();
-		keyboardInput.close();
+		idedam.close();
 	}
 
 	@Override
